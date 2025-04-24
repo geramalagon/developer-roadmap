@@ -7496,6 +7496,42 @@
         "width": 304,
         "height": 163
       }
+    },
+    {
+      "id": "strategicFrameworksNode",
+      "type": "subtopic",
+      "position": {
+        "x": 950,
+        "y": 1980
+      },
+      "data": {
+        "label": "Strategic Frameworks",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        }
+      },
+      "zIndex": 999,
+      "width": 250,
+      "height": 49,
+      "dragging": false,
+      "style": {
+        "width": 250,
+        "height": 49
+      },
+      "resizing": false,
+      "focusable": true,
+      "selectable": true,
+      "positionAbsolute": {
+        "x": 950,
+        "y": 1980
+      },
+      "measured": {
+        "width": 250,
+        "height": 49
+      },
+      "selected": true
     }
   ],
   "edges": [
@@ -10246,6 +10282,17 @@
       "selected": true,
       "selectable": true,
       "focusable": true
+    },
+    {
+      "id": "edge-strategic-thinking-to-frameworks",
+      "source": "strategicThinkingNode",
+      "target": "strategicFrameworksNode",
+      "type": "default",
+      "animated": false,
+      "style": {
+        "stroke": "#555",
+        "strokeWidth": 2
+      }
     }
   ]
 }
